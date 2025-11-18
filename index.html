@@ -3,21 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Profile Card</title>
     <link rel="stylesheet" href="index.css">
 </head>
-<body>  <div>
-       <p style="color: red;"> florian wirtz is elite</p>
+    <body> 
+        <p id="personName"></p>
+        <p id="personAge"></p>
+        <p id="personHobby"></p>
+    <script>
+     // create variables
+        let name = 'mouktar';
+        let age = '25';
+        let Hobby = 'playing'; 
 
-
-        </div> <a href="www.liverpoolfc.com">visitlfc</a>
-
-        <h1>arne</h1> <style></style>
-
-        <h2>sloetter</h2>
-
-
-        
+        // display values in HTML
+        document.getElementById('personName'). textContent = name;
+        document.getElementById('personAge').textContent = age;
+        document.getElementById('personHobby').textContent = hobby;
+    </script>
     
+       
+    
+        
+ <script src="main.js"></script>   
 </body>
 </html>
